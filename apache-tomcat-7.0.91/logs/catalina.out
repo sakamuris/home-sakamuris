@@ -1,0 +1,2236 @@
+Nov 17, 2018 4:35:04 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version:        Apache Tomcat/7.0.91
+Nov 17, 2018 4:35:04 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          Sep 13 2018 19:52:12 UTC
+Nov 17, 2018 4:35:04 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server number:         7.0.91.0
+Nov 17, 2018 4:35:04 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Linux
+Nov 17, 2018 4:35:04 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            3.10.0-862.14.4.el7.x86_64
+Nov 17, 2018 4:35:04 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          amd64
+Nov 17, 2018 4:35:04 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.191.b12-0.el7_5.x86_64/jre
+Nov 17, 2018 4:35:04 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.8.0_191-b12
+Nov 17, 2018 4:35:04 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+Nov 17, 2018 4:35:04 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         /home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91
+Nov 17, 2018 4:35:04 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         /home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91
+Nov 17, 2018 4:35:04 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=/home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91/conf/logging.properties
+Nov 17, 2018 4:35:04 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+Nov 17, 2018 4:35:04 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+Nov 17, 2018 4:35:04 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dignore.endorsed.dirs=
+Nov 17, 2018 4:35:04 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=/home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91
+Nov 17, 2018 4:35:04 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=/home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91
+Nov 17, 2018 4:35:04 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=/home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91/temp
+Nov 17, 2018 4:35:04 AM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+Nov 17, 2018 4:35:04 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+Nov 17, 2018 4:35:04 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Nov 17, 2018 4:35:04 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 1556 ms
+Nov 17, 2018 4:35:04 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Nov 17, 2018 4:35:04 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.91
+Nov 17, 2018 4:35:04 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91/webapps/ROOT
+Nov 17, 2018 4:35:05 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91/webapps/ROOT has finished in 860 ms
+Nov 17, 2018 4:35:05 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91/webapps/docs
+Nov 17, 2018 4:35:05 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91/webapps/docs has finished in 122 ms
+Nov 17, 2018 4:35:05 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91/webapps/examples
+Nov 17, 2018 4:35:05 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91/webapps/examples has finished in 475 ms
+Nov 17, 2018 4:35:05 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91/webapps/host-manager
+Nov 17, 2018 4:35:06 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91/webapps/host-manager has finished in 105 ms
+Nov 17, 2018 4:35:06 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91/webapps/manager
+Nov 17, 2018 4:35:06 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91/webapps/manager has finished in 95 ms
+Nov 17, 2018 4:35:06 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+Nov 17, 2018 4:35:06 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Nov 17, 2018 4:35:06 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 1808 ms
+Nov 17, 2018 5:19:21 AM org.apache.catalina.core.StandardServer await
+INFO: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+Nov 17, 2018 5:19:21 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8080"]
+Nov 17, 2018 5:19:21 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+Nov 17, 2018 5:19:21 AM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Nov 17, 2018 5:19:21 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-8080"]
+Nov 17, 2018 5:19:21 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+Nov 17, 2018 5:19:21 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-8080"]
+Nov 17, 2018 5:19:21 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]
+Nov 17, 2018 5:19:34 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version:        Apache Tomcat/7.0.91
+Nov 17, 2018 5:19:34 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          Sep 13 2018 19:52:12 UTC
+Nov 17, 2018 5:19:34 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server number:         7.0.91.0
+Nov 17, 2018 5:19:34 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Linux
+Nov 17, 2018 5:19:34 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            3.10.0-862.14.4.el7.x86_64
+Nov 17, 2018 5:19:34 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          amd64
+Nov 17, 2018 5:19:34 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.191.b12-0.el7_5.x86_64/jre
+Nov 17, 2018 5:19:34 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.8.0_191-b12
+Nov 17, 2018 5:19:34 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+Nov 17, 2018 5:19:34 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         /home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91
+Nov 17, 2018 5:19:34 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         /home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91
+Nov 17, 2018 5:19:34 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=/home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91/conf/logging.properties
+Nov 17, 2018 5:19:34 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+Nov 17, 2018 5:19:34 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+Nov 17, 2018 5:19:34 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dignore.endorsed.dirs=
+Nov 17, 2018 5:19:34 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=/home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91
+Nov 17, 2018 5:19:34 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=/home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91
+Nov 17, 2018 5:19:34 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=/home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91/temp
+Nov 17, 2018 5:19:34 AM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+Nov 17, 2018 5:19:34 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+Nov 17, 2018 5:19:34 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Nov 17, 2018 5:19:34 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 1087 ms
+Nov 17, 2018 5:19:34 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Nov 17, 2018 5:19:34 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.91
+Nov 17, 2018 5:19:34 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91/webapps/ROOT
+Nov 17, 2018 5:19:35 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91/webapps/ROOT has finished in 637 ms
+Nov 17, 2018 5:19:35 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91/webapps/docs
+Nov 17, 2018 5:19:35 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91/webapps/docs has finished in 122 ms
+Nov 17, 2018 5:19:35 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91/webapps/examples
+Nov 17, 2018 5:19:35 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91/webapps/examples has finished in 413 ms
+Nov 17, 2018 5:19:35 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91/webapps/host-manager
+Nov 17, 2018 5:19:35 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91/webapps/host-manager has finished in 88 ms
+Nov 17, 2018 5:19:35 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91/webapps/manager
+Nov 17, 2018 5:19:36 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91/webapps/manager has finished in 94 ms
+Nov 17, 2018 5:19:36 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+Nov 17, 2018 5:19:36 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Nov 17, 2018 5:19:36 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 1587 ms
+Nov 17, 2018 5:23:32 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version:        Apache Tomcat/7.0.91
+Nov 17, 2018 5:23:32 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          Sep 13 2018 19:52:12 UTC
+Nov 17, 2018 5:23:32 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server number:         7.0.91.0
+Nov 17, 2018 5:23:32 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Linux
+Nov 17, 2018 5:23:32 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            3.10.0-862.14.4.el7.x86_64
+Nov 17, 2018 5:23:32 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          amd64
+Nov 17, 2018 5:23:32 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.191.b12-0.el7_5.x86_64/jre
+Nov 17, 2018 5:23:32 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.8.0_191-b12
+Nov 17, 2018 5:23:32 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+Nov 17, 2018 5:23:32 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         /home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91
+Nov 17, 2018 5:23:32 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         /home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91
+Nov 17, 2018 5:23:32 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=/home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91/conf/logging.properties
+Nov 17, 2018 5:23:32 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+Nov 17, 2018 5:23:32 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+Nov 17, 2018 5:23:32 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dignore.endorsed.dirs=
+Nov 17, 2018 5:23:32 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=/home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91
+Nov 17, 2018 5:23:32 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=/home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91
+Nov 17, 2018 5:23:32 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=/home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91/temp
+Nov 17, 2018 5:23:32 AM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+Nov 17, 2018 5:23:32 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+Nov 17, 2018 5:23:32 AM org.apache.coyote.AbstractProtocol init
+SEVERE: Failed to initialize end point associated with ProtocolHandler ["http-bio-8080"]
+java.net.BindException: Address already in use (Bind failed) <null>:8080
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:413)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:728)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:452)
+	at org.apache.coyote.http11.AbstractHttp11JsseProtocol.init(AbstractHttp11JsseProtocol.java:119)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:978)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:560)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:840)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:654)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:679)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:253)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:427)
+Caused by: java.net.BindException: Address already in use (Bind failed)
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:387)
+	at java.net.ServerSocket.bind(ServerSocket.java:375)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at java.net.ServerSocket.<init>(ServerSocket.java:181)
+	at org.apache.tomcat.util.net.DefaultServerSocketFactory.createSocket(DefaultServerSocketFactory.java:49)
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:400)
+	... 17 more
+
+Nov 17, 2018 5:23:32 AM org.apache.catalina.core.StandardService initInternal
+SEVERE: Failed to initialize connector [Connector[HTTP/1.1-8080]]
+org.apache.catalina.LifecycleException: Failed to initialize component [Connector[HTTP/1.1-8080]]
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:560)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:840)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:654)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:679)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:253)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:427)
+Caused by: org.apache.catalina.LifecycleException: Protocol handler initialization failed
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:980)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	... 12 more
+Caused by: java.net.BindException: Address already in use (Bind failed) <null>:8080
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:413)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:728)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:452)
+	at org.apache.coyote.http11.AbstractHttp11JsseProtocol.init(AbstractHttp11JsseProtocol.java:119)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:978)
+	... 13 more
+Caused by: java.net.BindException: Address already in use (Bind failed)
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:387)
+	at java.net.ServerSocket.bind(ServerSocket.java:375)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at java.net.ServerSocket.<init>(ServerSocket.java:181)
+	at org.apache.tomcat.util.net.DefaultServerSocketFactory.createSocket(DefaultServerSocketFactory.java:49)
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:400)
+	... 17 more
+
+Nov 17, 2018 5:23:32 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Nov 17, 2018 5:23:32 AM org.apache.coyote.AbstractProtocol init
+SEVERE: Failed to initialize end point associated with ProtocolHandler ["ajp-bio-8009"]
+java.net.BindException: Address already in use (Bind failed) <null>:8009
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:413)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:728)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:452)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:978)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:560)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:840)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:654)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:679)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:253)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:427)
+Caused by: java.net.BindException: Address already in use (Bind failed)
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:387)
+	at java.net.ServerSocket.bind(ServerSocket.java:375)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at java.net.ServerSocket.<init>(ServerSocket.java:181)
+	at org.apache.tomcat.util.net.DefaultServerSocketFactory.createSocket(DefaultServerSocketFactory.java:49)
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:400)
+	... 16 more
+
+Nov 17, 2018 5:23:32 AM org.apache.catalina.core.StandardService initInternal
+SEVERE: Failed to initialize connector [Connector[AJP/1.3-8009]]
+org.apache.catalina.LifecycleException: Failed to initialize component [Connector[AJP/1.3-8009]]
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:560)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:840)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:654)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:679)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:253)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:427)
+Caused by: org.apache.catalina.LifecycleException: Protocol handler initialization failed
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:980)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	... 12 more
+Caused by: java.net.BindException: Address already in use (Bind failed) <null>:8009
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:413)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:728)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:452)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:978)
+	... 13 more
+Caused by: java.net.BindException: Address already in use (Bind failed)
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:387)
+	at java.net.ServerSocket.bind(ServerSocket.java:375)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at java.net.ServerSocket.<init>(ServerSocket.java:181)
+	at org.apache.tomcat.util.net.DefaultServerSocketFactory.createSocket(DefaultServerSocketFactory.java:49)
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:400)
+	... 16 more
+
+Nov 17, 2018 5:23:32 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 1133 ms
+Nov 17, 2018 5:23:32 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Nov 17, 2018 5:23:32 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.91
+Nov 17, 2018 5:23:32 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91/webapps/ROOT
+Nov 17, 2018 5:23:33 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91/webapps/ROOT has finished in 718 ms
+Nov 17, 2018 5:23:33 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91/webapps/docs
+Nov 17, 2018 5:23:33 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91/webapps/docs has finished in 113 ms
+Nov 17, 2018 5:23:33 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91/webapps/examples
+Nov 17, 2018 5:23:34 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91/webapps/examples has finished in 449 ms
+Nov 17, 2018 5:23:34 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91/webapps/host-manager
+Nov 17, 2018 5:23:34 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91/webapps/host-manager has finished in 99 ms
+Nov 17, 2018 5:23:34 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91/webapps/manager
+Nov 17, 2018 5:23:34 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91/webapps/manager has finished in 98 ms
+Nov 17, 2018 5:23:34 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 1589 ms
+Nov 17, 2018 5:23:34 AM org.apache.catalina.core.StandardServer await
+SEVERE: StandardServer.await: create[localhost:8005]: 
+java.net.BindException: Address already in use (Bind failed)
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:387)
+	at java.net.ServerSocket.bind(ServerSocket.java:375)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at org.apache.catalina.core.StandardServer.await(StandardServer.java:444)
+	at org.apache.catalina.startup.Catalina.await(Catalina.java:793)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:739)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:294)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:428)
+
+Nov 17, 2018 5:23:34 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8080"]
+Nov 17, 2018 5:23:34 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+Nov 17, 2018 5:23:34 AM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Nov 17, 2018 5:23:34 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-8080"]
+Nov 17, 2018 5:23:34 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-8080"]
+Nov 17, 2018 5:23:34 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+Nov 17, 2018 5:23:34 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]
+Nov 17, 2018 5:24:58 AM org.apache.catalina.core.StandardServer await
+INFO: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+Nov 17, 2018 5:24:58 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8080"]
+Nov 17, 2018 5:24:58 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+Nov 17, 2018 5:24:58 AM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Nov 17, 2018 5:24:58 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-8080"]
+Nov 17, 2018 5:24:58 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+Nov 17, 2018 5:24:58 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-8080"]
+Nov 17, 2018 5:24:58 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]
+Nov 17, 2018 5:25:22 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version:        Apache Tomcat/7.0.91
+Nov 17, 2018 5:25:22 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          Sep 13 2018 19:52:12 UTC
+Nov 17, 2018 5:25:22 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server number:         7.0.91.0
+Nov 17, 2018 5:25:22 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Linux
+Nov 17, 2018 5:25:22 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            3.10.0-862.14.4.el7.x86_64
+Nov 17, 2018 5:25:22 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          amd64
+Nov 17, 2018 5:25:22 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.191.b12-0.el7_5.x86_64/jre
+Nov 17, 2018 5:25:22 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.8.0_191-b12
+Nov 17, 2018 5:25:22 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+Nov 17, 2018 5:25:22 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         /home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91
+Nov 17, 2018 5:25:22 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         /home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91
+Nov 17, 2018 5:25:22 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=/home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91/conf/logging.properties
+Nov 17, 2018 5:25:22 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+Nov 17, 2018 5:25:22 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+Nov 17, 2018 5:25:22 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dignore.endorsed.dirs=
+Nov 17, 2018 5:25:22 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=/home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91
+Nov 17, 2018 5:25:22 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=/home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91
+Nov 17, 2018 5:25:22 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=/home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91/temp
+Nov 17, 2018 5:25:22 AM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+Nov 17, 2018 5:25:22 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+Nov 17, 2018 5:25:22 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Nov 17, 2018 5:25:22 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 1091 ms
+Nov 17, 2018 5:25:22 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Nov 17, 2018 5:25:22 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.91
+Nov 17, 2018 5:25:22 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91/webapps/ROOT
+Nov 17, 2018 5:25:23 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91/webapps/ROOT has finished in 712 ms
+Nov 17, 2018 5:25:23 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91/webapps/docs
+Nov 17, 2018 5:25:23 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91/webapps/docs has finished in 108 ms
+Nov 17, 2018 5:25:23 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91/webapps/examples
+Nov 17, 2018 5:25:23 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91/webapps/examples has finished in 453 ms
+Nov 17, 2018 5:25:23 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91/webapps/host-manager
+Nov 17, 2018 5:25:23 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91/webapps/host-manager has finished in 109 ms
+Nov 17, 2018 5:25:23 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91/webapps/manager
+Nov 17, 2018 5:25:23 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91/webapps/manager has finished in 87 ms
+Nov 17, 2018 5:25:23 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+Nov 17, 2018 5:25:24 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Nov 17, 2018 5:25:24 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 1743 ms
+Nov 17, 2018 6:22:24 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive /home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91/webapps/java.com.war
+Nov 17, 2018 6:22:24 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deployment of web application archive /home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91/webapps/java.com.war has finished in 159 ms
+Nov 17, 2018 6:49:37 AM org.apache.catalina.core.StandardServer await
+INFO: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+Nov 17, 2018 6:49:37 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8080"]
+Nov 17, 2018 6:49:37 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+Nov 17, 2018 6:49:37 AM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Nov 17, 2018 6:49:37 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-8080"]
+Nov 17, 2018 6:49:37 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+Nov 17, 2018 6:49:37 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-8080"]
+Nov 17, 2018 6:49:37 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]
+Nov 17, 2018 6:49:54 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version:        Apache Tomcat/7.0.91
+Nov 17, 2018 6:49:54 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          Sep 13 2018 19:52:12 UTC
+Nov 17, 2018 6:49:54 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server number:         7.0.91.0
+Nov 17, 2018 6:49:54 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Linux
+Nov 17, 2018 6:49:54 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            3.10.0-862.14.4.el7.x86_64
+Nov 17, 2018 6:49:54 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          amd64
+Nov 17, 2018 6:49:54 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.191.b12-0.el7_5.x86_64/jre
+Nov 17, 2018 6:49:54 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.8.0_191-b12
+Nov 17, 2018 6:49:54 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+Nov 17, 2018 6:49:54 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         /home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91
+Nov 17, 2018 6:49:54 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         /home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91
+Nov 17, 2018 6:49:54 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=/home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91/conf/logging.properties
+Nov 17, 2018 6:49:54 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+Nov 17, 2018 6:49:54 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+Nov 17, 2018 6:49:54 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dignore.endorsed.dirs=
+Nov 17, 2018 6:49:54 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=/home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91
+Nov 17, 2018 6:49:54 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=/home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91
+Nov 17, 2018 6:49:54 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=/home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91/temp
+Nov 17, 2018 6:49:54 AM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+Nov 17, 2018 6:49:55 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+Nov 17, 2018 6:49:55 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Nov 17, 2018 6:49:55 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 1109 ms
+Nov 17, 2018 6:49:55 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Nov 17, 2018 6:49:55 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.91
+Nov 17, 2018 6:49:55 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive /home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91/webapps/java.com.war
+Nov 17, 2018 6:49:55 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deployment of web application archive /home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91/webapps/java.com.war has finished in 812 ms
+Nov 17, 2018 6:49:56 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91/webapps/ROOT
+Nov 17, 2018 6:49:56 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91/webapps/ROOT has finished in 82 ms
+Nov 17, 2018 6:49:56 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91/webapps/docs
+Nov 17, 2018 6:49:56 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91/webapps/docs has finished in 95 ms
+Nov 17, 2018 6:49:56 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91/webapps/examples
+Nov 17, 2018 6:49:56 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91/webapps/examples has finished in 405 ms
+Nov 17, 2018 6:49:56 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91/webapps/host-manager
+Nov 17, 2018 6:49:56 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91/webapps/host-manager has finished in 89 ms
+Nov 17, 2018 6:49:56 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91/webapps/manager
+Nov 17, 2018 6:49:56 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91/webapps/manager has finished in 99 ms
+Nov 17, 2018 6:49:56 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+Nov 17, 2018 6:49:56 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Nov 17, 2018 6:49:56 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 1852 ms
+Nov 17, 2018 6:51:29 AM org.apache.catalina.startup.HostConfig undeploy
+INFO: Undeploying context [/java.com]
+Nov 17, 2018 7:08:19 AM org.apache.catalina.core.StandardServer await
+INFO: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+Nov 17, 2018 7:08:19 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8080"]
+Nov 17, 2018 7:08:19 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+Nov 17, 2018 7:08:19 AM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Nov 17, 2018 7:08:19 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-8080"]
+Nov 17, 2018 7:08:19 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+Nov 17, 2018 7:08:19 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-8080"]
+Nov 17, 2018 7:08:19 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]
+Nov 17, 2018 7:08:26 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version:        Apache Tomcat/7.0.91
+Nov 17, 2018 7:08:26 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          Sep 13 2018 19:52:12 UTC
+Nov 17, 2018 7:08:26 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server number:         7.0.91.0
+Nov 17, 2018 7:08:26 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Linux
+Nov 17, 2018 7:08:26 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            3.10.0-862.14.4.el7.x86_64
+Nov 17, 2018 7:08:26 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          amd64
+Nov 17, 2018 7:08:26 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.191.b12-0.el7_5.x86_64/jre
+Nov 17, 2018 7:08:26 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.8.0_191-b12
+Nov 17, 2018 7:08:26 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+Nov 17, 2018 7:08:26 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         /home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91
+Nov 17, 2018 7:08:26 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         /home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91
+Nov 17, 2018 7:08:26 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=/home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91/conf/logging.properties
+Nov 17, 2018 7:08:26 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+Nov 17, 2018 7:08:26 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+Nov 17, 2018 7:08:26 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dignore.endorsed.dirs=
+Nov 17, 2018 7:08:26 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=/home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91
+Nov 17, 2018 7:08:26 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=/home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91
+Nov 17, 2018 7:08:26 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=/home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91/temp
+Nov 17, 2018 7:08:26 AM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+Nov 17, 2018 7:08:26 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+Nov 17, 2018 7:08:26 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Nov 17, 2018 7:08:26 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 1093 ms
+Nov 17, 2018 7:08:26 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Nov 17, 2018 7:08:26 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.91
+Nov 17, 2018 7:08:26 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91/webapps/ROOT
+Nov 17, 2018 7:08:27 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91/webapps/ROOT has finished in 666 ms
+Nov 17, 2018 7:08:27 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91/webapps/docs
+Nov 17, 2018 7:08:27 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91/webapps/docs has finished in 115 ms
+Nov 17, 2018 7:08:27 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91/webapps/examples
+Nov 17, 2018 7:08:27 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91/webapps/examples has finished in 435 ms
+Nov 17, 2018 7:08:27 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91/webapps/host-manager
+Nov 17, 2018 7:08:27 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91/webapps/host-manager has finished in 93 ms
+Nov 17, 2018 7:08:27 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91/webapps/manager
+Nov 17, 2018 7:08:27 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91/webapps/manager has finished in 254 ms
+Nov 17, 2018 7:08:27 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+Nov 17, 2018 7:08:28 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Nov 17, 2018 7:08:28 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 1796 ms
+Nov 17, 2018 7:08:49 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive /home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91/webapps/Helloworld.war
+Nov 17, 2018 7:08:49 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deployment of web application archive /home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91/webapps/Helloworld.war has finished in 138 ms
+Nov 17, 2018 7:24:16 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8080"]
+Nov 17, 2018 7:24:16 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+Nov 17, 2018 7:24:16 AM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Nov 17, 2018 7:24:16 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-8080"]
+Nov 17, 2018 7:24:16 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+Nov 17, 2018 7:24:16 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-8080"]
+Nov 17, 2018 7:24:16 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]
+Nov 27, 2018 4:51:26 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version:        Apache Tomcat/7.0.91
+Nov 27, 2018 4:51:26 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          Sep 13 2018 19:52:12 UTC
+Nov 27, 2018 4:51:26 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server number:         7.0.91.0
+Nov 27, 2018 4:51:26 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Linux
+Nov 27, 2018 4:51:26 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            3.10.0-862.14.4.el7.x86_64
+Nov 27, 2018 4:51:26 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          amd64
+Nov 27, 2018 4:51:26 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.191.b12-0.el7_5.x86_64/jre
+Nov 27, 2018 4:51:26 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.8.0_191-b12
+Nov 27, 2018 4:51:26 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+Nov 27, 2018 4:51:26 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         /home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91
+Nov 27, 2018 4:51:26 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         /home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91
+Nov 27, 2018 4:51:26 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=/home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91/conf/logging.properties
+Nov 27, 2018 4:51:26 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+Nov 27, 2018 4:51:26 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+Nov 27, 2018 4:51:26 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dignore.endorsed.dirs=
+Nov 27, 2018 4:51:26 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=/home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91
+Nov 27, 2018 4:51:26 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=/home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91
+Nov 27, 2018 4:51:26 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=/home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91/temp
+Nov 27, 2018 4:51:26 AM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+Nov 27, 2018 4:51:26 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8082"]
+Nov 27, 2018 4:51:26 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Nov 27, 2018 4:51:26 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 1197 ms
+Nov 27, 2018 4:51:27 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Nov 27, 2018 4:51:27 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.91
+Nov 27, 2018 4:51:27 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive /home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91/webapps/Helloworld.war
+Nov 27, 2018 4:51:28 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deployment of web application archive /home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91/webapps/Helloworld.war has finished in 995 ms
+Nov 27, 2018 4:51:28 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91/webapps/ROOT
+Nov 27, 2018 4:51:28 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91/webapps/ROOT has finished in 150 ms
+Nov 27, 2018 4:51:28 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91/webapps/docs
+Nov 27, 2018 4:51:28 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91/webapps/docs has finished in 137 ms
+Nov 27, 2018 4:51:28 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91/webapps/examples
+Nov 27, 2018 4:51:29 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91/webapps/examples has finished in 869 ms
+Nov 27, 2018 4:51:29 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91/webapps/host-manager
+Nov 27, 2018 4:51:29 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91/webapps/host-manager has finished in 105 ms
+Nov 27, 2018 4:51:29 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91/webapps/manager
+Nov 27, 2018 4:51:29 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91/webapps/manager has finished in 87 ms
+Nov 27, 2018 4:51:29 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8082"]
+Nov 27, 2018 4:51:29 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Nov 27, 2018 4:51:29 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 2553 ms
+Nov 27, 2018 5:49:34 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8082"]
+Nov 27, 2018 5:49:34 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+Nov 27, 2018 5:49:34 AM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Nov 27, 2018 5:49:34 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-8082"]
+Nov 27, 2018 5:49:34 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+Nov 27, 2018 5:49:34 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-8082"]
+Nov 27, 2018 5:49:34 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]
+Nov 27, 2018 9:47:41 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version:        Apache Tomcat/7.0.91
+Nov 27, 2018 9:47:41 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          Sep 13 2018 19:52:12 UTC
+Nov 27, 2018 9:47:41 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server number:         7.0.91.0
+Nov 27, 2018 9:47:41 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Linux
+Nov 27, 2018 9:47:41 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            3.10.0-862.14.4.el7.x86_64
+Nov 27, 2018 9:47:41 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          amd64
+Nov 27, 2018 9:47:41 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.191.b12-0.el7_5.x86_64/jre
+Nov 27, 2018 9:47:41 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.8.0_191-b12
+Nov 27, 2018 9:47:41 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+Nov 27, 2018 9:47:41 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         /home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91
+Nov 27, 2018 9:47:41 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         /home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91
+Nov 27, 2018 9:47:41 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=/home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91/conf/logging.properties
+Nov 27, 2018 9:47:41 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+Nov 27, 2018 9:47:41 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+Nov 27, 2018 9:47:41 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dignore.endorsed.dirs=
+Nov 27, 2018 9:47:41 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=/home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91
+Nov 27, 2018 9:47:41 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=/home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91
+Nov 27, 2018 9:47:41 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=/home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91/temp
+Nov 27, 2018 9:47:41 AM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+Nov 27, 2018 9:47:41 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8082"]
+Nov 27, 2018 9:47:41 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Nov 27, 2018 9:47:41 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 1165 ms
+Nov 27, 2018 9:47:41 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Nov 27, 2018 9:47:41 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.91
+Nov 27, 2018 9:47:41 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive /home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91/webapps/Helloworld.war
+Nov 27, 2018 9:47:42 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deployment of web application archive /home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91/webapps/Helloworld.war has finished in 801 ms
+Nov 27, 2018 9:47:42 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91/webapps/ROOT
+Nov 27, 2018 9:47:42 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91/webapps/ROOT has finished in 121 ms
+Nov 27, 2018 9:47:42 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91/webapps/docs
+Nov 27, 2018 9:47:42 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91/webapps/docs has finished in 113 ms
+Nov 27, 2018 9:47:42 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91/webapps/examples
+Nov 27, 2018 9:47:43 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91/webapps/examples has finished in 748 ms
+Nov 27, 2018 9:47:43 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91/webapps/host-manager
+Nov 27, 2018 9:47:43 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91/webapps/host-manager has finished in 95 ms
+Nov 27, 2018 9:47:43 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91/webapps/manager
+Nov 27, 2018 9:47:43 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91/webapps/manager has finished in 90 ms
+Nov 27, 2018 9:47:43 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8082"]
+Nov 27, 2018 9:47:44 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Nov 27, 2018 9:47:44 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 2212 ms
+Nov 27, 2018 9:58:50 AM org.apache.catalina.core.StandardServer await
+INFO: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+Nov 27, 2018 9:58:51 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8082"]
+Nov 27, 2018 9:58:51 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+Nov 27, 2018 9:58:51 AM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Nov 27, 2018 9:58:51 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-8082"]
+Nov 27, 2018 9:58:51 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+Nov 27, 2018 9:58:51 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-8082"]
+Nov 27, 2018 9:58:51 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]
+Nov 27, 2018 9:59:08 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version:        Apache Tomcat/7.0.91
+Nov 27, 2018 9:59:08 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          Sep 13 2018 19:52:12 UTC
+Nov 27, 2018 9:59:08 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server number:         7.0.91.0
+Nov 27, 2018 9:59:08 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Linux
+Nov 27, 2018 9:59:08 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            3.10.0-862.14.4.el7.x86_64
+Nov 27, 2018 9:59:08 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          amd64
+Nov 27, 2018 9:59:08 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.191.b12-0.el7_5.x86_64/jre
+Nov 27, 2018 9:59:08 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.8.0_191-b12
+Nov 27, 2018 9:59:08 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+Nov 27, 2018 9:59:08 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         /home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91
+Nov 27, 2018 9:59:08 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         /home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91
+Nov 27, 2018 9:59:08 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=/home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91/conf/logging.properties
+Nov 27, 2018 9:59:08 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+Nov 27, 2018 9:59:08 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+Nov 27, 2018 9:59:08 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dignore.endorsed.dirs=
+Nov 27, 2018 9:59:08 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=/home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91
+Nov 27, 2018 9:59:08 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=/home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91
+Nov 27, 2018 9:59:08 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=/home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91/temp
+Nov 27, 2018 9:59:08 AM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+Nov 27, 2018 9:59:08 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8082"]
+Nov 27, 2018 9:59:08 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Nov 27, 2018 9:59:08 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 1091 ms
+Nov 27, 2018 9:59:08 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Nov 27, 2018 9:59:08 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.91
+Nov 27, 2018 9:59:09 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive /home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91/webapps/Helloworld.war
+Nov 27, 2018 9:59:09 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deployment of web application archive /home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91/webapps/Helloworld.war has finished in 740 ms
+Nov 27, 2018 9:59:09 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91/webapps/ROOT
+Nov 27, 2018 9:59:09 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91/webapps/ROOT has finished in 87 ms
+Nov 27, 2018 9:59:09 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91/webapps/docs
+Nov 27, 2018 9:59:09 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91/webapps/docs has finished in 104 ms
+Nov 27, 2018 9:59:09 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91/webapps/examples
+Nov 27, 2018 9:59:10 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91/webapps/examples has finished in 411 ms
+Nov 27, 2018 9:59:10 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91/webapps/host-manager
+Nov 27, 2018 9:59:10 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91/webapps/host-manager has finished in 128 ms
+Nov 27, 2018 9:59:10 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91/webapps/manager
+Nov 27, 2018 9:59:10 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91/webapps/manager has finished in 253 ms
+Nov 27, 2018 9:59:10 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8082"]
+Nov 27, 2018 9:59:10 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Nov 27, 2018 9:59:10 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 1979 ms
+Nov 27, 2018 10:01:55 AM org.apache.catalina.core.StandardServer await
+INFO: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+Nov 27, 2018 10:01:55 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8082"]
+Nov 27, 2018 10:01:55 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+Nov 27, 2018 10:01:55 AM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Nov 27, 2018 10:01:55 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-8082"]
+Nov 27, 2018 10:01:55 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+Nov 27, 2018 10:01:55 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-8082"]
+Nov 27, 2018 10:01:55 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]
+Nov 27, 2018 10:02:07 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version:        Apache Tomcat/7.0.91
+Nov 27, 2018 10:02:07 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          Sep 13 2018 19:52:12 UTC
+Nov 27, 2018 10:02:07 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server number:         7.0.91.0
+Nov 27, 2018 10:02:07 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Linux
+Nov 27, 2018 10:02:07 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            3.10.0-862.14.4.el7.x86_64
+Nov 27, 2018 10:02:07 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          amd64
+Nov 27, 2018 10:02:07 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.191.b12-0.el7_5.x86_64/jre
+Nov 27, 2018 10:02:07 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.8.0_191-b12
+Nov 27, 2018 10:02:07 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+Nov 27, 2018 10:02:07 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         /home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91
+Nov 27, 2018 10:02:07 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         /home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91
+Nov 27, 2018 10:02:07 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=/home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91/conf/logging.properties
+Nov 27, 2018 10:02:07 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+Nov 27, 2018 10:02:07 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+Nov 27, 2018 10:02:07 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dignore.endorsed.dirs=
+Nov 27, 2018 10:02:07 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=/home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91
+Nov 27, 2018 10:02:07 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=/home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91
+Nov 27, 2018 10:02:07 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=/home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91/temp
+Nov 27, 2018 10:02:07 AM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+Nov 27, 2018 10:02:07 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8082"]
+Nov 27, 2018 10:02:07 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Nov 27, 2018 10:02:07 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 1074 ms
+Nov 27, 2018 10:02:07 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Nov 27, 2018 10:02:07 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.91
+Nov 27, 2018 10:02:07 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive /home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91/webapps/Helloworld.war
+Nov 27, 2018 10:02:08 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deployment of web application archive /home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91/webapps/Helloworld.war has finished in 728 ms
+Nov 27, 2018 10:02:08 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91/webapps/ROOT
+Nov 27, 2018 10:02:08 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91/webapps/ROOT has finished in 105 ms
+Nov 27, 2018 10:02:08 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91/webapps/docs
+Nov 27, 2018 10:02:08 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91/webapps/docs has finished in 114 ms
+Nov 27, 2018 10:02:08 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91/webapps/examples
+Nov 27, 2018 10:02:09 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91/webapps/examples has finished in 449 ms
+Nov 27, 2018 10:02:09 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91/webapps/host-manager
+Nov 27, 2018 10:02:09 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91/webapps/host-manager has finished in 121 ms
+Nov 27, 2018 10:02:09 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91/webapps/manager
+Nov 27, 2018 10:02:09 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91/webapps/manager has finished in 251 ms
+Nov 27, 2018 10:02:09 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8082"]
+Nov 27, 2018 10:02:09 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Nov 27, 2018 10:02:09 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 1946 ms
+Nov 27, 2018 10:11:17 AM org.apache.catalina.startup.HostConfig undeploy
+INFO: Undeploying context [/Helloworld]
+Nov 27, 2018 10:25:35 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version:        Apache Tomcat/7.0.91
+Nov 27, 2018 10:25:35 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          Sep 13 2018 19:52:12 UTC
+Nov 27, 2018 10:25:35 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server number:         7.0.91.0
+Nov 27, 2018 10:25:35 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Linux
+Nov 27, 2018 10:25:35 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            3.10.0-862.14.4.el7.x86_64
+Nov 27, 2018 10:25:35 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          amd64
+Nov 27, 2018 10:25:35 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.191.b12-0.el7_5.x86_64/jre
+Nov 27, 2018 10:25:35 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.8.0_191-b12
+Nov 27, 2018 10:25:35 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+Nov 27, 2018 10:25:35 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         /home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91
+Nov 27, 2018 10:25:35 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         /home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91
+Nov 27, 2018 10:25:35 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=/home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91/conf/logging.properties
+Nov 27, 2018 10:25:35 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+Nov 27, 2018 10:25:35 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+Nov 27, 2018 10:25:35 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dignore.endorsed.dirs=
+Nov 27, 2018 10:25:35 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=/home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91
+Nov 27, 2018 10:25:35 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=/home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91
+Nov 27, 2018 10:25:35 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=/home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91/temp
+Nov 27, 2018 10:25:35 AM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+Nov 27, 2018 10:25:35 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8082"]
+Nov 27, 2018 10:25:35 AM org.apache.coyote.AbstractProtocol init
+SEVERE: Failed to initialize end point associated with ProtocolHandler ["http-bio-8082"]
+java.net.BindException: Address already in use (Bind failed) <null>:8082
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:413)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:728)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:452)
+	at org.apache.coyote.http11.AbstractHttp11JsseProtocol.init(AbstractHttp11JsseProtocol.java:119)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:978)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:560)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:840)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:654)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:679)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:253)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:427)
+Caused by: java.net.BindException: Address already in use (Bind failed)
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:387)
+	at java.net.ServerSocket.bind(ServerSocket.java:375)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at java.net.ServerSocket.<init>(ServerSocket.java:181)
+	at org.apache.tomcat.util.net.DefaultServerSocketFactory.createSocket(DefaultServerSocketFactory.java:49)
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:400)
+	... 17 more
+
+Nov 27, 2018 10:25:35 AM org.apache.catalina.core.StandardService initInternal
+SEVERE: Failed to initialize connector [Connector[HTTP/1.1-8082]]
+org.apache.catalina.LifecycleException: Failed to initialize component [Connector[HTTP/1.1-8082]]
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:560)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:840)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:654)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:679)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:253)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:427)
+Caused by: org.apache.catalina.LifecycleException: Protocol handler initialization failed
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:980)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	... 12 more
+Caused by: java.net.BindException: Address already in use (Bind failed) <null>:8082
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:413)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:728)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:452)
+	at org.apache.coyote.http11.AbstractHttp11JsseProtocol.init(AbstractHttp11JsseProtocol.java:119)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:978)
+	... 13 more
+Caused by: java.net.BindException: Address already in use (Bind failed)
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:387)
+	at java.net.ServerSocket.bind(ServerSocket.java:375)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at java.net.ServerSocket.<init>(ServerSocket.java:181)
+	at org.apache.tomcat.util.net.DefaultServerSocketFactory.createSocket(DefaultServerSocketFactory.java:49)
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:400)
+	... 17 more
+
+Nov 27, 2018 10:25:35 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Nov 27, 2018 10:25:35 AM org.apache.coyote.AbstractProtocol init
+SEVERE: Failed to initialize end point associated with ProtocolHandler ["ajp-bio-8009"]
+java.net.BindException: Address already in use (Bind failed) <null>:8009
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:413)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:728)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:452)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:978)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:560)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:840)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:654)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:679)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:253)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:427)
+Caused by: java.net.BindException: Address already in use (Bind failed)
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:387)
+	at java.net.ServerSocket.bind(ServerSocket.java:375)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at java.net.ServerSocket.<init>(ServerSocket.java:181)
+	at org.apache.tomcat.util.net.DefaultServerSocketFactory.createSocket(DefaultServerSocketFactory.java:49)
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:400)
+	... 16 more
+
+Nov 27, 2018 10:25:35 AM org.apache.catalina.core.StandardService initInternal
+SEVERE: Failed to initialize connector [Connector[AJP/1.3-8009]]
+org.apache.catalina.LifecycleException: Failed to initialize component [Connector[AJP/1.3-8009]]
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:560)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:840)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:654)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:679)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:253)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:427)
+Caused by: org.apache.catalina.LifecycleException: Protocol handler initialization failed
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:980)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	... 12 more
+Caused by: java.net.BindException: Address already in use (Bind failed) <null>:8009
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:413)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:728)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:452)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:978)
+	... 13 more
+Caused by: java.net.BindException: Address already in use (Bind failed)
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:387)
+	at java.net.ServerSocket.bind(ServerSocket.java:375)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at java.net.ServerSocket.<init>(ServerSocket.java:181)
+	at org.apache.tomcat.util.net.DefaultServerSocketFactory.createSocket(DefaultServerSocketFactory.java:49)
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:400)
+	... 16 more
+
+Nov 27, 2018 10:25:35 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 1094 ms
+Nov 27, 2018 10:25:35 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Nov 27, 2018 10:25:35 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.91
+Nov 27, 2018 10:25:36 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91/webapps/ROOT
+Nov 27, 2018 10:25:36 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91/webapps/ROOT has finished in 703 ms
+Nov 27, 2018 10:25:36 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91/webapps/docs
+Nov 27, 2018 10:25:36 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91/webapps/docs has finished in 137 ms
+Nov 27, 2018 10:25:36 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91/webapps/examples
+Nov 27, 2018 10:25:37 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91/webapps/examples has finished in 495 ms
+Nov 27, 2018 10:25:37 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91/webapps/host-manager
+Nov 27, 2018 10:25:37 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91/webapps/host-manager has finished in 86 ms
+Nov 27, 2018 10:25:37 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91/webapps/manager
+Nov 27, 2018 10:25:37 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91/webapps/manager has finished in 97 ms
+Nov 27, 2018 10:25:37 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 1622 ms
+Nov 27, 2018 10:25:37 AM org.apache.catalina.core.StandardServer await
+SEVERE: StandardServer.await: create[localhost:8005]: 
+java.net.BindException: Address already in use (Bind failed)
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:387)
+	at java.net.ServerSocket.bind(ServerSocket.java:375)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at org.apache.catalina.core.StandardServer.await(StandardServer.java:444)
+	at org.apache.catalina.startup.Catalina.await(Catalina.java:793)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:739)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:294)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:428)
+
+Nov 27, 2018 10:25:37 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8082"]
+Nov 27, 2018 10:25:37 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+Nov 27, 2018 10:25:37 AM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Nov 27, 2018 10:25:37 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-8082"]
+Nov 27, 2018 10:25:37 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-8082"]
+Nov 27, 2018 10:25:37 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+Nov 27, 2018 10:25:37 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]
+Nov 27, 2018 10:36:11 AM org.apache.catalina.core.StandardServer await
+INFO: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+Nov 27, 2018 10:36:11 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8082"]
+Nov 27, 2018 10:36:11 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+Nov 27, 2018 10:36:11 AM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Nov 27, 2018 10:36:11 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-8082"]
+Nov 27, 2018 10:36:11 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+Nov 27, 2018 10:36:11 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-8082"]
+Nov 27, 2018 10:36:11 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]
+Nov 27, 2018 10:36:17 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version:        Apache Tomcat/7.0.91
+Nov 27, 2018 10:36:17 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          Sep 13 2018 19:52:12 UTC
+Nov 27, 2018 10:36:17 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server number:         7.0.91.0
+Nov 27, 2018 10:36:17 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Linux
+Nov 27, 2018 10:36:17 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            3.10.0-862.14.4.el7.x86_64
+Nov 27, 2018 10:36:17 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          amd64
+Nov 27, 2018 10:36:17 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.191.b12-0.el7_5.x86_64/jre
+Nov 27, 2018 10:36:17 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.8.0_191-b12
+Nov 27, 2018 10:36:17 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+Nov 27, 2018 10:36:17 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         /home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91
+Nov 27, 2018 10:36:17 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         /home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91
+Nov 27, 2018 10:36:17 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=/home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91/conf/logging.properties
+Nov 27, 2018 10:36:17 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+Nov 27, 2018 10:36:17 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+Nov 27, 2018 10:36:17 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dignore.endorsed.dirs=
+Nov 27, 2018 10:36:17 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=/home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91
+Nov 27, 2018 10:36:17 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=/home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91
+Nov 27, 2018 10:36:17 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=/home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91/temp
+Nov 27, 2018 10:36:17 AM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+Nov 27, 2018 10:36:17 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8082"]
+Nov 27, 2018 10:36:17 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Nov 27, 2018 10:36:17 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 1082 ms
+Nov 27, 2018 10:36:17 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Nov 27, 2018 10:36:17 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.91
+Nov 27, 2018 10:36:17 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91/webapps/ROOT
+Nov 27, 2018 10:36:18 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91/webapps/ROOT has finished in 729 ms
+Nov 27, 2018 10:36:18 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91/webapps/docs
+Nov 27, 2018 10:36:18 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91/webapps/docs has finished in 97 ms
+Nov 27, 2018 10:36:18 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91/webapps/examples
+Nov 27, 2018 10:36:19 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91/webapps/examples has finished in 428 ms
+Nov 27, 2018 10:36:19 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91/webapps/host-manager
+Nov 27, 2018 10:36:19 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91/webapps/host-manager has finished in 96 ms
+Nov 27, 2018 10:36:19 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91/webapps/manager
+Nov 27, 2018 10:36:19 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91/webapps/manager has finished in 261 ms
+Nov 27, 2018 10:36:19 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8082"]
+Nov 27, 2018 10:36:19 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Nov 27, 2018 10:36:19 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 1815 ms
+Nov 27, 2018 10:42:33 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version:        Apache Tomcat/7.0.91
+Nov 27, 2018 10:42:33 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          Sep 13 2018 19:52:12 UTC
+Nov 27, 2018 10:42:33 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server number:         7.0.91.0
+Nov 27, 2018 10:42:33 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Linux
+Nov 27, 2018 10:42:33 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            3.10.0-862.14.4.el7.x86_64
+Nov 27, 2018 10:42:33 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          amd64
+Nov 27, 2018 10:42:33 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.191.b12-0.el7_5.x86_64/jre
+Nov 27, 2018 10:42:33 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.8.0_191-b12
+Nov 27, 2018 10:42:33 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+Nov 27, 2018 10:42:33 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         /home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91
+Nov 27, 2018 10:42:33 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         /home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91
+Nov 27, 2018 10:42:33 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=/home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91/conf/logging.properties
+Nov 27, 2018 10:42:33 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+Nov 27, 2018 10:42:33 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+Nov 27, 2018 10:42:33 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dignore.endorsed.dirs=
+Nov 27, 2018 10:42:33 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=/home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91
+Nov 27, 2018 10:42:33 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=/home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91
+Nov 27, 2018 10:42:33 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=/home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91/temp
+Nov 27, 2018 10:42:33 AM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+Nov 27, 2018 10:42:33 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8082"]
+Nov 27, 2018 10:42:33 AM org.apache.coyote.AbstractProtocol init
+SEVERE: Failed to initialize end point associated with ProtocolHandler ["http-bio-8082"]
+java.net.BindException: Address already in use (Bind failed) <null>:8082
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:413)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:728)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:452)
+	at org.apache.coyote.http11.AbstractHttp11JsseProtocol.init(AbstractHttp11JsseProtocol.java:119)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:978)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:560)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:840)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:654)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:679)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:253)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:427)
+Caused by: java.net.BindException: Address already in use (Bind failed)
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:387)
+	at java.net.ServerSocket.bind(ServerSocket.java:375)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at java.net.ServerSocket.<init>(ServerSocket.java:181)
+	at org.apache.tomcat.util.net.DefaultServerSocketFactory.createSocket(DefaultServerSocketFactory.java:49)
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:400)
+	... 17 more
+
+Nov 27, 2018 10:42:33 AM org.apache.catalina.core.StandardService initInternal
+SEVERE: Failed to initialize connector [Connector[HTTP/1.1-8082]]
+org.apache.catalina.LifecycleException: Failed to initialize component [Connector[HTTP/1.1-8082]]
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:560)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:840)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:654)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:679)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:253)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:427)
+Caused by: org.apache.catalina.LifecycleException: Protocol handler initialization failed
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:980)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	... 12 more
+Caused by: java.net.BindException: Address already in use (Bind failed) <null>:8082
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:413)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:728)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:452)
+	at org.apache.coyote.http11.AbstractHttp11JsseProtocol.init(AbstractHttp11JsseProtocol.java:119)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:978)
+	... 13 more
+Caused by: java.net.BindException: Address already in use (Bind failed)
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:387)
+	at java.net.ServerSocket.bind(ServerSocket.java:375)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at java.net.ServerSocket.<init>(ServerSocket.java:181)
+	at org.apache.tomcat.util.net.DefaultServerSocketFactory.createSocket(DefaultServerSocketFactory.java:49)
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:400)
+	... 17 more
+
+Nov 27, 2018 10:42:33 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Nov 27, 2018 10:42:33 AM org.apache.coyote.AbstractProtocol init
+SEVERE: Failed to initialize end point associated with ProtocolHandler ["ajp-bio-8009"]
+java.net.BindException: Address already in use (Bind failed) <null>:8009
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:413)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:728)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:452)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:978)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:560)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:840)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:654)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:679)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:253)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:427)
+Caused by: java.net.BindException: Address already in use (Bind failed)
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:387)
+	at java.net.ServerSocket.bind(ServerSocket.java:375)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at java.net.ServerSocket.<init>(ServerSocket.java:181)
+	at org.apache.tomcat.util.net.DefaultServerSocketFactory.createSocket(DefaultServerSocketFactory.java:49)
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:400)
+	... 16 more
+
+Nov 27, 2018 10:42:33 AM org.apache.catalina.core.StandardService initInternal
+SEVERE: Failed to initialize connector [Connector[AJP/1.3-8009]]
+org.apache.catalina.LifecycleException: Failed to initialize component [Connector[AJP/1.3-8009]]
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:560)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:840)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:654)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:679)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:253)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:427)
+Caused by: org.apache.catalina.LifecycleException: Protocol handler initialization failed
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:980)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	... 12 more
+Caused by: java.net.BindException: Address already in use (Bind failed) <null>:8009
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:413)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:728)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:452)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:978)
+	... 13 more
+Caused by: java.net.BindException: Address already in use (Bind failed)
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:387)
+	at java.net.ServerSocket.bind(ServerSocket.java:375)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at java.net.ServerSocket.<init>(ServerSocket.java:181)
+	at org.apache.tomcat.util.net.DefaultServerSocketFactory.createSocket(DefaultServerSocketFactory.java:49)
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:400)
+	... 16 more
+
+Nov 27, 2018 10:42:33 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 1063 ms
+Nov 27, 2018 10:42:33 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Nov 27, 2018 10:42:33 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.91
+Nov 27, 2018 10:42:33 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91/webapps/ROOT
+Nov 27, 2018 10:42:34 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91/webapps/ROOT has finished in 730 ms
+Nov 27, 2018 10:42:34 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91/webapps/docs
+Nov 27, 2018 10:42:34 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91/webapps/docs has finished in 103 ms
+Nov 27, 2018 10:42:34 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91/webapps/examples
+Nov 27, 2018 10:42:34 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91/webapps/examples has finished in 447 ms
+Nov 27, 2018 10:42:34 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91/webapps/host-manager
+Nov 27, 2018 10:42:34 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91/webapps/host-manager has finished in 98 ms
+Nov 27, 2018 10:42:34 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91/webapps/manager
+Nov 27, 2018 10:42:35 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91/webapps/manager has finished in 94 ms
+Nov 27, 2018 10:42:35 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 1609 ms
+Nov 27, 2018 10:42:35 AM org.apache.catalina.core.StandardServer await
+SEVERE: StandardServer.await: create[localhost:8005]: 
+java.net.BindException: Address already in use (Bind failed)
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:387)
+	at java.net.ServerSocket.bind(ServerSocket.java:375)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at org.apache.catalina.core.StandardServer.await(StandardServer.java:444)
+	at org.apache.catalina.startup.Catalina.await(Catalina.java:793)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:739)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:294)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:428)
+
+Nov 27, 2018 10:42:35 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8082"]
+Nov 27, 2018 10:42:35 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+Nov 27, 2018 10:42:35 AM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Nov 27, 2018 10:42:35 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-8082"]
+Nov 27, 2018 10:42:35 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-8082"]
+Nov 27, 2018 10:42:35 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+Nov 27, 2018 10:42:35 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]
+Nov 27, 2018 10:42:51 AM org.apache.catalina.core.StandardServer await
+INFO: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+Nov 27, 2018 10:42:51 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8082"]
+Nov 27, 2018 10:42:51 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+Nov 27, 2018 10:42:51 AM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Nov 27, 2018 10:42:51 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-8082"]
+Nov 27, 2018 10:42:51 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+Nov 27, 2018 10:42:51 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-8082"]
+Nov 27, 2018 10:42:51 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]
+Nov 27, 2018 10:42:55 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version:        Apache Tomcat/7.0.91
+Nov 27, 2018 10:42:55 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          Sep 13 2018 19:52:12 UTC
+Nov 27, 2018 10:42:55 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server number:         7.0.91.0
+Nov 27, 2018 10:42:55 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Linux
+Nov 27, 2018 10:42:55 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            3.10.0-862.14.4.el7.x86_64
+Nov 27, 2018 10:42:55 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          amd64
+Nov 27, 2018 10:42:55 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.191.b12-0.el7_5.x86_64/jre
+Nov 27, 2018 10:42:55 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.8.0_191-b12
+Nov 27, 2018 10:42:55 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+Nov 27, 2018 10:42:55 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         /home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91
+Nov 27, 2018 10:42:55 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         /home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91
+Nov 27, 2018 10:42:55 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=/home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91/conf/logging.properties
+Nov 27, 2018 10:42:55 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+Nov 27, 2018 10:42:55 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+Nov 27, 2018 10:42:55 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dignore.endorsed.dirs=
+Nov 27, 2018 10:42:55 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=/home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91
+Nov 27, 2018 10:42:55 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=/home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91
+Nov 27, 2018 10:42:55 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=/home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91/temp
+Nov 27, 2018 10:42:55 AM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+Nov 27, 2018 10:42:55 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8082"]
+Nov 27, 2018 10:42:55 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Nov 27, 2018 10:42:55 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 1060 ms
+Nov 27, 2018 10:42:55 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Nov 27, 2018 10:42:55 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.91
+Nov 27, 2018 10:42:55 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91/webapps/ROOT
+Nov 27, 2018 10:42:56 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91/webapps/ROOT has finished in 666 ms
+Nov 27, 2018 10:42:56 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91/webapps/docs
+Nov 27, 2018 10:42:56 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91/webapps/docs has finished in 96 ms
+Nov 27, 2018 10:42:56 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91/webapps/examples
+Nov 27, 2018 10:42:57 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91/webapps/examples has finished in 423 ms
+Nov 27, 2018 10:42:57 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91/webapps/host-manager
+Nov 27, 2018 10:42:57 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91/webapps/host-manager has finished in 109 ms
+Nov 27, 2018 10:42:57 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91/webapps/manager
+Nov 27, 2018 10:42:57 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91/webapps/manager has finished in 250 ms
+Nov 27, 2018 10:42:57 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8082"]
+Nov 27, 2018 10:42:57 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Nov 27, 2018 10:42:57 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 1755 ms
+Nov 27, 2018 10:49:16 AM org.apache.catalina.core.StandardServer await
+INFO: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+Nov 27, 2018 10:49:16 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8082"]
+Nov 27, 2018 10:49:16 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+Nov 27, 2018 10:49:16 AM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Nov 27, 2018 10:49:16 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-8082"]
+Nov 27, 2018 10:49:16 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+Nov 27, 2018 10:49:16 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-8082"]
+Nov 27, 2018 10:49:16 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]
+Nov 27, 2018 10:49:30 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version:        Apache Tomcat/7.0.91
+Nov 27, 2018 10:49:30 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          Sep 13 2018 19:52:12 UTC
+Nov 27, 2018 10:49:30 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server number:         7.0.91.0
+Nov 27, 2018 10:49:30 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Linux
+Nov 27, 2018 10:49:30 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            3.10.0-862.14.4.el7.x86_64
+Nov 27, 2018 10:49:30 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          amd64
+Nov 27, 2018 10:49:30 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.191.b12-0.el7_5.x86_64/jre
+Nov 27, 2018 10:49:30 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.8.0_191-b12
+Nov 27, 2018 10:49:30 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+Nov 27, 2018 10:49:30 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         /home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91
+Nov 27, 2018 10:49:30 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         /home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91
+Nov 27, 2018 10:49:30 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=/home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91/conf/logging.properties
+Nov 27, 2018 10:49:30 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+Nov 27, 2018 10:49:30 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+Nov 27, 2018 10:49:30 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dignore.endorsed.dirs=
+Nov 27, 2018 10:49:30 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=/home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91
+Nov 27, 2018 10:49:30 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=/home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91
+Nov 27, 2018 10:49:30 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=/home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91/temp
+Nov 27, 2018 10:49:30 AM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+Nov 27, 2018 10:49:30 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8082"]
+Nov 27, 2018 10:49:30 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Nov 27, 2018 10:49:30 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 1123 ms
+Nov 27, 2018 10:49:30 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Nov 27, 2018 10:49:30 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.91
+Nov 27, 2018 10:49:30 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91/webapps/ROOT
+Nov 27, 2018 10:49:31 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91/webapps/ROOT has finished in 720 ms
+Nov 27, 2018 10:49:31 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91/webapps/docs
+Nov 27, 2018 10:49:31 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91/webapps/docs has finished in 106 ms
+Nov 27, 2018 10:49:31 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91/webapps/examples
+Nov 27, 2018 10:49:31 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91/webapps/examples has finished in 465 ms
+Nov 27, 2018 10:49:31 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91/webapps/host-manager
+Nov 27, 2018 10:49:31 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91/webapps/host-manager has finished in 110 ms
+Nov 27, 2018 10:49:31 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91/webapps/manager
+Nov 27, 2018 10:49:32 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91/webapps/manager has finished in 233 ms
+Nov 27, 2018 10:49:32 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8082"]
+Nov 27, 2018 10:49:32 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Nov 27, 2018 10:49:32 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 1771 ms
+Nov 27, 2018 11:49:07 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version:        Apache Tomcat/7.0.91
+Nov 27, 2018 11:49:07 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          Sep 13 2018 19:52:12 UTC
+Nov 27, 2018 11:49:07 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server number:         7.0.91.0
+Nov 27, 2018 11:49:07 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Linux
+Nov 27, 2018 11:49:07 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            3.10.0-862.14.4.el7.x86_64
+Nov 27, 2018 11:49:07 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          amd64
+Nov 27, 2018 11:49:07 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.191.b12-0.el7_5.x86_64/jre
+Nov 27, 2018 11:49:07 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.8.0_191-b12
+Nov 27, 2018 11:49:07 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+Nov 27, 2018 11:49:07 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         /home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91
+Nov 27, 2018 11:49:07 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         /home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91
+Nov 27, 2018 11:49:07 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=/home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91/conf/logging.properties
+Nov 27, 2018 11:49:07 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+Nov 27, 2018 11:49:07 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+Nov 27, 2018 11:49:07 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dignore.endorsed.dirs=
+Nov 27, 2018 11:49:07 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=/home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91
+Nov 27, 2018 11:49:07 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=/home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91
+Nov 27, 2018 11:49:07 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=/home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91/temp
+Nov 27, 2018 11:49:07 AM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+Nov 27, 2018 11:49:08 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8082"]
+Nov 27, 2018 11:49:08 AM org.apache.coyote.AbstractProtocol init
+SEVERE: Failed to initialize end point associated with ProtocolHandler ["http-bio-8082"]
+java.net.BindException: Address already in use (Bind failed) <null>:8082
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:413)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:728)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:452)
+	at org.apache.coyote.http11.AbstractHttp11JsseProtocol.init(AbstractHttp11JsseProtocol.java:119)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:978)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:560)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:840)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:654)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:679)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:253)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:427)
+Caused by: java.net.BindException: Address already in use (Bind failed)
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:387)
+	at java.net.ServerSocket.bind(ServerSocket.java:375)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at java.net.ServerSocket.<init>(ServerSocket.java:181)
+	at org.apache.tomcat.util.net.DefaultServerSocketFactory.createSocket(DefaultServerSocketFactory.java:49)
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:400)
+	... 17 more
+
+Nov 27, 2018 11:49:08 AM org.apache.catalina.core.StandardService initInternal
+SEVERE: Failed to initialize connector [Connector[HTTP/1.1-8082]]
+org.apache.catalina.LifecycleException: Failed to initialize component [Connector[HTTP/1.1-8082]]
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:560)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:840)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:654)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:679)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:253)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:427)
+Caused by: org.apache.catalina.LifecycleException: Protocol handler initialization failed
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:980)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	... 12 more
+Caused by: java.net.BindException: Address already in use (Bind failed) <null>:8082
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:413)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:728)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:452)
+	at org.apache.coyote.http11.AbstractHttp11JsseProtocol.init(AbstractHttp11JsseProtocol.java:119)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:978)
+	... 13 more
+Caused by: java.net.BindException: Address already in use (Bind failed)
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:387)
+	at java.net.ServerSocket.bind(ServerSocket.java:375)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at java.net.ServerSocket.<init>(ServerSocket.java:181)
+	at org.apache.tomcat.util.net.DefaultServerSocketFactory.createSocket(DefaultServerSocketFactory.java:49)
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:400)
+	... 17 more
+
+Nov 27, 2018 11:49:08 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Nov 27, 2018 11:49:08 AM org.apache.coyote.AbstractProtocol init
+SEVERE: Failed to initialize end point associated with ProtocolHandler ["ajp-bio-8009"]
+java.net.BindException: Address already in use (Bind failed) <null>:8009
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:413)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:728)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:452)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:978)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:560)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:840)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:654)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:679)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:253)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:427)
+Caused by: java.net.BindException: Address already in use (Bind failed)
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:387)
+	at java.net.ServerSocket.bind(ServerSocket.java:375)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at java.net.ServerSocket.<init>(ServerSocket.java:181)
+	at org.apache.tomcat.util.net.DefaultServerSocketFactory.createSocket(DefaultServerSocketFactory.java:49)
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:400)
+	... 16 more
+
+Nov 27, 2018 11:49:08 AM org.apache.catalina.core.StandardService initInternal
+SEVERE: Failed to initialize connector [Connector[AJP/1.3-8009]]
+org.apache.catalina.LifecycleException: Failed to initialize component [Connector[AJP/1.3-8009]]
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:560)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:840)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:654)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:679)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:253)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:427)
+Caused by: org.apache.catalina.LifecycleException: Protocol handler initialization failed
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:980)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	... 12 more
+Caused by: java.net.BindException: Address already in use (Bind failed) <null>:8009
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:413)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:728)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:452)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:978)
+	... 13 more
+Caused by: java.net.BindException: Address already in use (Bind failed)
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:387)
+	at java.net.ServerSocket.bind(ServerSocket.java:375)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at java.net.ServerSocket.<init>(ServerSocket.java:181)
+	at org.apache.tomcat.util.net.DefaultServerSocketFactory.createSocket(DefaultServerSocketFactory.java:49)
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:400)
+	... 16 more
+
+Nov 27, 2018 11:49:08 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 1093 ms
+Nov 27, 2018 11:49:08 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Nov 27, 2018 11:49:08 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.91
+Nov 27, 2018 11:49:08 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91/webapps/ROOT
+Nov 27, 2018 11:49:08 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91/webapps/ROOT has finished in 702 ms
+Nov 27, 2018 11:49:08 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91/webapps/docs
+Nov 27, 2018 11:49:09 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91/webapps/docs has finished in 82 ms
+Nov 27, 2018 11:49:09 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91/webapps/examples
+Nov 27, 2018 11:49:09 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91/webapps/examples has finished in 459 ms
+Nov 27, 2018 11:49:09 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91/webapps/host-manager
+Nov 27, 2018 11:49:09 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91/webapps/host-manager has finished in 106 ms
+Nov 27, 2018 11:49:09 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91/webapps/manager
+Nov 27, 2018 11:49:09 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91/webapps/manager has finished in 88 ms
+Nov 27, 2018 11:49:09 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 1573 ms
+Nov 27, 2018 11:49:09 AM org.apache.catalina.core.StandardServer await
+SEVERE: StandardServer.await: create[localhost:8005]: 
+java.net.BindException: Address already in use (Bind failed)
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:387)
+	at java.net.ServerSocket.bind(ServerSocket.java:375)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at org.apache.catalina.core.StandardServer.await(StandardServer.java:444)
+	at org.apache.catalina.startup.Catalina.await(Catalina.java:793)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:739)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:294)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:428)
+
+Nov 27, 2018 11:49:09 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8082"]
+Nov 27, 2018 11:49:09 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+Nov 27, 2018 11:49:09 AM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Nov 27, 2018 11:49:09 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-8082"]
+Nov 27, 2018 11:49:09 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-8082"]
+Nov 27, 2018 11:49:09 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+Nov 27, 2018 11:49:09 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]
+Nov 27, 2018 11:49:18 AM org.apache.catalina.core.StandardServer await
+INFO: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+Nov 27, 2018 11:49:18 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8082"]
+Nov 27, 2018 11:49:18 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+Nov 27, 2018 11:49:18 AM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Nov 27, 2018 11:49:18 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-8082"]
+Nov 27, 2018 11:49:18 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+Nov 27, 2018 11:49:18 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-8082"]
+Nov 27, 2018 11:49:18 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]
+Nov 27, 2018 11:49:26 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version:        Apache Tomcat/7.0.91
+Nov 27, 2018 11:49:26 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          Sep 13 2018 19:52:12 UTC
+Nov 27, 2018 11:49:26 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server number:         7.0.91.0
+Nov 27, 2018 11:49:26 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Linux
+Nov 27, 2018 11:49:26 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            3.10.0-862.14.4.el7.x86_64
+Nov 27, 2018 11:49:26 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          amd64
+Nov 27, 2018 11:49:26 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.191.b12-0.el7_5.x86_64/jre
+Nov 27, 2018 11:49:26 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.8.0_191-b12
+Nov 27, 2018 11:49:26 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+Nov 27, 2018 11:49:26 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         /home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91
+Nov 27, 2018 11:49:26 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         /home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91
+Nov 27, 2018 11:49:26 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=/home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91/conf/logging.properties
+Nov 27, 2018 11:49:26 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+Nov 27, 2018 11:49:26 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+Nov 27, 2018 11:49:26 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dignore.endorsed.dirs=
+Nov 27, 2018 11:49:26 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=/home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91
+Nov 27, 2018 11:49:26 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=/home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91
+Nov 27, 2018 11:49:26 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=/home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91/temp
+Nov 27, 2018 11:49:26 AM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+Nov 27, 2018 11:49:26 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8082"]
+Nov 27, 2018 11:49:26 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Nov 27, 2018 11:49:26 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 1141 ms
+Nov 27, 2018 11:49:26 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Nov 27, 2018 11:49:26 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.91
+Nov 27, 2018 11:49:26 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91/webapps/ROOT
+Nov 27, 2018 11:49:27 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91/webapps/ROOT has finished in 710 ms
+Nov 27, 2018 11:49:27 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91/webapps/docs
+Nov 27, 2018 11:49:27 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91/webapps/docs has finished in 119 ms
+Nov 27, 2018 11:49:27 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91/webapps/examples
+Nov 27, 2018 11:49:27 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91/webapps/examples has finished in 472 ms
+Nov 27, 2018 11:49:27 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91/webapps/host-manager
+Nov 27, 2018 11:49:27 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91/webapps/host-manager has finished in 101 ms
+Nov 27, 2018 11:49:27 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91/webapps/manager
+Nov 27, 2018 11:49:28 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91/webapps/manager has finished in 267 ms
+Nov 27, 2018 11:49:28 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8082"]
+Nov 27, 2018 11:49:28 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Nov 27, 2018 11:49:28 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 1837 ms
+Nov 27, 2018 11:59:38 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive /home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91/webapps/myproject.war
+Nov 27, 2018 11:59:39 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deployment of web application archive /home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91/webapps/myproject.war has finished in 163 ms
+Nov 27, 2018 12:01:50 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive /home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91/webapps/Helloworld.war
+Nov 27, 2018 12:01:50 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deployment of web application archive /home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91/webapps/Helloworld.war has finished in 108 ms
+Nov 27, 2018 12:07:38 PM org.apache.catalina.util.LifecycleBase start
+INFO: The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/Helloworld]] after start() had already been called. The second call will be ignored.
+Nov 27, 2018 12:08:05 PM org.apache.catalina.startup.HostConfig undeploy
+INFO: Undeploying context [/myproject]
+Nov 27, 2018 12:08:05 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive /home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91/webapps/myproject.war
+Nov 27, 2018 12:08:05 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deployment of web application archive /home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91/webapps/myproject.war has finished in 70 ms
+Nov 27, 2018 12:08:16 PM org.apache.catalina.util.LifecycleBase start
+INFO: The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/Helloworld]] after start() had already been called. The second call will be ignored.
+Nov 27, 2018 12:33:19 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8082"]
+Nov 27, 2018 12:33:19 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+Nov 27, 2018 12:33:19 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Nov 27, 2018 12:33:19 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-8082"]
+Nov 27, 2018 12:33:19 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+Nov 27, 2018 12:33:19 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-8082"]
+Nov 27, 2018 12:33:19 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]
+Nov 28, 2018 8:46:52 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version:        Apache Tomcat/7.0.91
+Nov 28, 2018 8:46:52 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          Sep 13 2018 19:52:12 UTC
+Nov 28, 2018 8:46:52 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server number:         7.0.91.0
+Nov 28, 2018 8:46:52 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Linux
+Nov 28, 2018 8:46:52 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            3.10.0-862.14.4.el7.x86_64
+Nov 28, 2018 8:46:52 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          amd64
+Nov 28, 2018 8:46:52 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.191.b12-0.el7_5.x86_64/jre
+Nov 28, 2018 8:46:52 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.8.0_191-b12
+Nov 28, 2018 8:46:52 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+Nov 28, 2018 8:46:52 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         /home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91
+Nov 28, 2018 8:46:52 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         /home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91
+Nov 28, 2018 8:46:52 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=/home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91/conf/logging.properties
+Nov 28, 2018 8:46:52 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+Nov 28, 2018 8:46:52 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+Nov 28, 2018 8:46:52 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dignore.endorsed.dirs=
+Nov 28, 2018 8:46:52 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=/home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91
+Nov 28, 2018 8:46:52 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=/home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91
+Nov 28, 2018 8:46:52 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=/home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91/temp
+Nov 28, 2018 8:46:52 AM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+Nov 28, 2018 8:46:53 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8082"]
+Nov 28, 2018 8:46:53 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Nov 28, 2018 8:46:53 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 1293 ms
+Nov 28, 2018 8:46:53 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Nov 28, 2018 8:46:53 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.91
+Nov 28, 2018 8:46:53 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive /home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91/webapps/Helloworld.war
+Nov 28, 2018 8:46:54 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deployment of web application archive /home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91/webapps/Helloworld.war has finished in 914 ms
+Nov 28, 2018 8:46:54 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive /home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91/webapps/myproject.war
+Nov 28, 2018 8:46:54 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deployment of web application archive /home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91/webapps/myproject.war has finished in 349 ms
+Nov 28, 2018 8:46:54 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91/webapps/ROOT
+Nov 28, 2018 8:46:54 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91/webapps/ROOT has finished in 130 ms
+Nov 28, 2018 8:46:54 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91/webapps/docs
+Nov 28, 2018 8:46:54 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91/webapps/docs has finished in 92 ms
+Nov 28, 2018 8:46:54 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91/webapps/examples
+Nov 28, 2018 8:46:55 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91/webapps/examples has finished in 1,107 ms
+Nov 28, 2018 8:46:55 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91/webapps/host-manager
+Nov 28, 2018 8:46:56 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91/webapps/host-manager has finished in 106 ms
+Nov 28, 2018 8:46:56 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91/webapps/manager
+Nov 28, 2018 8:46:56 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91/webapps/manager has finished in 111 ms
+Nov 28, 2018 8:46:56 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8082"]
+Nov 28, 2018 8:46:56 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Nov 28, 2018 8:46:56 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 3150 ms

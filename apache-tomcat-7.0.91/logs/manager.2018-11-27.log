@@ -1,0 +1,100 @@
+Nov 27, 2018 9:47:59 AM org.apache.catalina.core.ApplicationContext log
+INFO: HTMLManager: init: Associated with Deployer 'Catalina:type=Deployer,host=localhost'
+Nov 27, 2018 9:47:59 AM org.apache.catalina.core.ApplicationContext log
+INFO: HTMLManager: init: Global resources are available
+Nov 27, 2018 9:47:59 AM org.apache.catalina.core.ApplicationContext log
+INFO: HTMLManager: list: Listing contexts for virtual host 'localhost'
+Nov 27, 2018 9:55:23 AM org.apache.catalina.core.ApplicationContext log
+INFO: HTMLManager: list: Listing contexts for virtual host 'localhost'
+Nov 27, 2018 10:09:54 AM org.apache.catalina.core.ApplicationContext log
+INFO: HTMLManager: init: Associated with Deployer 'Catalina:type=Deployer,host=localhost'
+Nov 27, 2018 10:09:54 AM org.apache.catalina.core.ApplicationContext log
+INFO: HTMLManager: init: Global resources are available
+Nov 27, 2018 10:09:54 AM org.apache.catalina.core.ApplicationContext log
+INFO: HTMLManager: list: Listing contexts for virtual host 'localhost'
+Nov 27, 2018 10:09:59 AM org.apache.catalina.core.ApplicationContext log
+INFO: HTMLManager: list: Listing contexts for virtual host 'localhost'
+Nov 27, 2018 10:10:02 AM org.apache.catalina.core.ApplicationContext log
+INFO: HTMLManager: list: Listing contexts for virtual host 'localhost'
+Nov 27, 2018 10:10:15 AM org.apache.catalina.core.ApplicationContext log
+INFO: HTMLManager: list: Listing contexts for virtual host 'localhost'
+Nov 27, 2018 10:11:16 AM org.apache.catalina.core.ApplicationContext log
+INFO: HTMLManager: undeploy: Undeploying web application at '/Helloworld'
+Nov 27, 2018 10:11:17 AM org.apache.catalina.core.ApplicationContext log
+INFO: HTMLManager: list: Listing contexts for virtual host 'localhost'
+Nov 27, 2018 10:12:59 AM org.apache.catalina.core.ApplicationContext log
+INFO: HTMLManager: undeploy: Undeploying web application at '/Helloworld'
+Nov 27, 2018 10:12:59 AM org.apache.catalina.core.ApplicationContext log
+INFO: HTMLManager: list: Listing contexts for virtual host 'localhost'
+Nov 27, 2018 10:32:38 AM org.apache.catalina.core.ApplicationContext log
+INFO: HTMLManager: undeploy: Undeploying web application at '/Helloworld'
+Nov 27, 2018 10:32:38 AM org.apache.catalina.core.ApplicationContext log
+INFO: HTMLManager: list: Listing contexts for virtual host 'localhost'
+Nov 27, 2018 10:46:49 AM org.apache.catalina.core.ApplicationContext log
+INFO: HTMLManager: init: Associated with Deployer 'Catalina:type=Deployer,host=localhost'
+Nov 27, 2018 10:46:49 AM org.apache.catalina.core.ApplicationContext log
+INFO: HTMLManager: init: Global resources are available
+Nov 27, 2018 10:46:49 AM org.apache.catalina.core.ApplicationContext log
+INFO: HTMLManager: list: Listing contexts for virtual host 'localhost'
+Nov 27, 2018 10:47:04 AM org.apache.catalina.core.ApplicationContext log
+INFO: HTMLManager: list: Listing contexts for virtual host 'localhost'
+Nov 27, 2018 11:22:17 AM org.apache.catalina.core.ApplicationContext log
+INFO: HTMLManager: init: Associated with Deployer 'Catalina:type=Deployer,host=localhost'
+Nov 27, 2018 11:22:17 AM org.apache.catalina.core.ApplicationContext log
+INFO: HTMLManager: init: Global resources are available
+Nov 27, 2018 11:22:17 AM org.apache.catalina.core.ApplicationContext log
+INFO: HTMLManager: list: Listing contexts for virtual host 'localhost'
+Nov 27, 2018 11:24:17 AM org.apache.catalina.core.ApplicationContext log
+INFO: HTMLManager: list: Listing contexts for virtual host 'localhost'
+Nov 27, 2018 11:28:32 AM org.apache.catalina.core.ApplicationContext log
+INFO: HTMLManager: list: Listing contexts for virtual host 'localhost'
+Nov 27, 2018 11:29:14 AM org.apache.catalina.core.ApplicationContext log
+INFO: HTMLManager: list: Listing contexts for virtual host 'localhost'
+Nov 27, 2018 11:29:33 AM org.apache.catalina.core.ApplicationContext log
+INFO: HTMLManager: list: Listing contexts for virtual host 'localhost'
+Nov 27, 2018 11:34:30 AM org.apache.catalina.core.ApplicationContext log
+INFO: HTMLManager: list: Listing contexts for virtual host 'localhost'
+Nov 27, 2018 11:42:11 AM org.apache.catalina.core.ApplicationContext log
+INFO: HTMLManager: list: Listing contexts for virtual host 'localhost'
+Nov 27, 2018 11:59:38 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: init: Associated with Deployer 'Catalina:type=Deployer,host=localhost'
+Nov 27, 2018 11:59:38 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: init: Global resources are available
+Nov 27, 2018 11:59:38 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: deploy: Deploying web application '/myproject'
+Nov 27, 2018 11:59:38 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: Uploading WAR file to /home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91/webapps/myproject.war
+Nov 27, 2018 12:00:04 PM org.apache.catalina.core.ApplicationContext log
+INFO: HTMLManager: init: Associated with Deployer 'Catalina:type=Deployer,host=localhost'
+Nov 27, 2018 12:00:04 PM org.apache.catalina.core.ApplicationContext log
+INFO: HTMLManager: init: Global resources are available
+Nov 27, 2018 12:00:04 PM org.apache.catalina.core.ApplicationContext log
+INFO: HTMLManager: list: Listing contexts for virtual host 'localhost'
+Nov 27, 2018 12:01:50 PM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: deploy: Deploying web application '/Helloworld'
+Nov 27, 2018 12:01:50 PM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: Uploading WAR file to /home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91/webapps/Helloworld.war
+Nov 27, 2018 12:02:00 PM org.apache.catalina.core.ApplicationContext log
+INFO: HTMLManager: list: Listing contexts for virtual host 'localhost'
+Nov 27, 2018 12:02:15 PM org.apache.catalina.core.ApplicationContext log
+INFO: HTMLManager: stop: Stopping web application '/Helloworld'
+Nov 27, 2018 12:02:15 PM org.apache.catalina.core.ApplicationContext log
+INFO: HTMLManager: list: Listing contexts for virtual host 'localhost'
+Nov 27, 2018 12:02:25 PM org.apache.catalina.core.ApplicationContext log
+INFO: HTMLManager: start: Starting web application '/Helloworld'
+Nov 27, 2018 12:02:25 PM org.apache.catalina.core.ApplicationContext log
+INFO: HTMLManager: list: Listing contexts for virtual host 'localhost'
+Nov 27, 2018 12:07:21 PM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: deploy: Deploying web application '/myproject'
+Nov 27, 2018 12:07:38 PM org.apache.catalina.core.ApplicationContext log
+INFO: HTMLManager: start: Starting web application '/Helloworld'
+Nov 27, 2018 12:07:38 PM org.apache.catalina.core.ApplicationContext log
+INFO: HTMLManager: list: Listing contexts for virtual host 'localhost'
+Nov 27, 2018 12:08:05 PM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: deploy: Deploying web application '/myproject'
+Nov 27, 2018 12:08:05 PM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: Uploading WAR file to /home/sakamuri_sravanthij/java.com/apache-tomcat-7.0.91/webapps/myproject.war.tmp
+Nov 27, 2018 12:08:16 PM org.apache.catalina.core.ApplicationContext log
+INFO: HTMLManager: start: Starting web application '/Helloworld'
+Nov 27, 2018 12:08:16 PM org.apache.catalina.core.ApplicationContext log
+INFO: HTMLManager: list: Listing contexts for virtual host 'localhost'
